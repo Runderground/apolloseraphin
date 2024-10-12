@@ -8,6 +8,7 @@ import App from './App.tsx'
 import Home from './pages/Home.tsx'
 import Catalogo from './pages/Catalogo.tsx'
 import './index.css'
+import Product from './pages/Product.tsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/catalogo",
         element: <Catalogo/>
+      },
+      {
+        path: "/produto/:id",
+        element: <Product/>
       }
     ]
   },

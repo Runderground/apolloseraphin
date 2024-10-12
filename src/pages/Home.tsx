@@ -29,7 +29,7 @@ export default function Home () {
             <Destaque.Nome nome={d.nome}/>
             <Destaque.Descricao descricao={d.desc}/>
             <Destaque.Estrelas qnt={d.nota}/>
-            <Destaque.Button link={`/${d.id}`}/>
+            <Destaque.Button link={`/produto/${d.id}`}/>
             </Destaque.Root>
           ))}
         </div>

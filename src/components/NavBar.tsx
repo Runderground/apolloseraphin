@@ -14,7 +14,6 @@ export default function NavBar() {
     <nav className={style.nav}>
       <Link to="/"><BsHouseFill/> Início</Link>
       <Link to="/catalogo"><BsCartFill/> Catálogo</Link>
-      <Link to="/sobre"><BsPersonBadgeFill/> Sobre</Link>
     </nav>
     </header>
     </>

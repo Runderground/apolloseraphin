@@ -10,7 +10,8 @@ export interface ICard {
   description?: string,
   button_text?: string,
   button_link?: string,
-  avaliation?: number
+  avaliation?: number,
+  size?: number,
 }
 
 export const Card = {
