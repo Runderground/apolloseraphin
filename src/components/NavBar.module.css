@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to right, #67191F, #AB3130);
+  padding: .5rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand_logo {
+  width: 60px;
+  height: 60px;
+}
+
+.brand_title {
+  font-size: 1.5rem;
+  font-style: uppercase;
+  color: var(--text);
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 500;
+}

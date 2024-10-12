@@ -1,0 +1,84 @@
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 1rem;
+  border-radius: .5rem;
+  background: rgba(40, 10, 10, .7);
+  align-items: center;
+  text-align: center;
+  transition: .4s ease-in-out;
+}
+
+/* .box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  opacity: .5;
+  z-index: -1;
+} */
+/* 
+.one::before {
+  background-image: url("https://i.imgur.com/T4qK3wo.jpeg");
+}
+
+.two::before {
+  background-image: url("https://i.imgur.com/3aoqklN.jpeg");
+}
+
+.three::before {
+  background-image: url("https://i.imgur.com/b7ck4Vx.jpeg");
+} */
+
+.box:hover {
+  transform: scale(1.05);
+  background: rgba(70, 20, 20);
+}
+
+.imagem {
+  height: 120px;
+  width: auto;
+  background: rgba(11,11,11, .3);
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+}
+.nome {
+  font-size: 1rem;
+  margin-bottom: .25rem;
+}
+
+.btn {
+  text-decoration: none;
+  background: linear-gradient(to right, var(--deepred), var(--scarlet));
+  border-radius: .5rem;
+  color: var(--text);
+  width: 100%;
+}
+
+.btn:hover {
+  font-size: 1.1rem;
+}
+
+.star_array {
+  display: flex;
+  gap: .25rem;
+  color: rgba(255, 190, 20);
+  margin: .25rem;
+}
+.descricao {
+  color: grey;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 400px;
+  }
+}

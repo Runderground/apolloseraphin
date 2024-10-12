@@ -1,0 +1,53 @@
+.card_box {
+  display: flex;
+  flex-direction: column;
+  background: rgba(33,33,33, .5);
+  border-radius: 1rem;
+  padding: 1rem;
+  justfify-content: center;
+  align-items: center;
+}
+
+.card_image {
+  width: 40%;
+  height: auto;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card_name {
+  color: var(--text);
+  font-size: 1.2rem;
+}
+
+.card_desc {
+  color: rgba(125,125,125);
+  font-size: .75rem;
+}
+
+.card_price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(100, 230, 100);
+}
+
+.star_array {
+  display: flex;
+  gap: .25rem;
+  color: rgba(255, 190, 20);
+  margin: .25rem;
+}
+
+.card_button {
+  text-decoration: none;
+  color: var(--text);
+  background: linear-gradient(to right, rgba(0,100, 255), rgba(0,200, 255));;
+  border-radius: .5rem;
+  padding: 1rem;
+  width: 100%;
+  transition: .2s ease-in-out;
+}
+
+.card_button:hover {
+  transform: scale(1.05);
+}

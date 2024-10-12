@@ -1,0 +1,101 @@
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(11,11,11, .6);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+
+#second h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.destaques {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.roberto {
+  width: 400px;
+  height: 400px;
+  filter: drop-shadow(0 0 2rem rgba(0,0,0,.6));
+}
+.intro h1 {
+  font-size: 3rem;
+}
+.intro h2{
+  font-size: 2rem;
+  color: var(--scarlet);
+  font-weight: 300;
+}
+
+.intro p{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro a{
+  background: var(--scarlet);
+  color: var(--text);
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: .5rem;
+  text-align: center;
+  border-radius: .5rem;
+  transition: .4s ease-in-out;
+}
+
+.intro a:hover {
+  background: var(--deepred);
+  font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .intro a{
+    font-size: 2rem;
+  }
+  .intro a:hover {
+    font-size: 2.1rem;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro h2 {
+    font-size: 1.5rem;  
+  }
+  
+  .intro p {
+    font-size: 1rem;
+  }
+  .roberto {
+    margin-top: 2rem;
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 2rem rgba(0,0,0,.6));
+  }
+  .destaques { 
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
