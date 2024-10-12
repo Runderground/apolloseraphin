@@ -104,4 +104,8 @@
     width: 100%;
     text-align: center;
   }
+
+  .product_name {
+    font-size: 1.75rem;
+  }
 }

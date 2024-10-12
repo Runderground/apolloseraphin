@@ -73,8 +73,9 @@
   margin: .25rem;
 }
 .descricao {
-  color: grey;
+  color: rgba(150, 150, 150);
   font-size: 0.75rem;
+  flex: 1;
 }
 
 @media screen and (max-width: 768px) {

@@ -45,7 +45,6 @@
 .intro p{
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  flex: 1;
 }
 
 .intro a{
@@ -82,7 +81,7 @@
     font-size: 2rem;
   }
   .intro h2 {
-    font-size: 1.5rem;  
+    font-size: 1.25rem;  
   }
   
   .intro p {
