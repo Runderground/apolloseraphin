@@ -1,0 +1,41 @@
+.thanks_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thanks_box svg {
+  font-size: 6rem;
+  color: rgba(100, 250, 40);
+  animation: svgZoom .4s ease-in-out;
+}
+
+@keyframes svgZoom {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.thanks_box p {
+  color: rgba(200, 200, 200);
+  margin-bottom: 1rem;
+}
+
+.thanks_box a {
+  text-decoration: none;
+  color: var(--text);
+  background: var(--deepred);
+  padding: .5rem;
+  border-radius: .5rem;
+  transition: .4s ease-in-out;
+}
+
+.thanks_box a:hover {
+  background: var(--text);
+  color: var(--deepred);
+}

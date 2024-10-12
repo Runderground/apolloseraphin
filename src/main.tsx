@@ -9,6 +9,7 @@ import Home from './pages/Home.tsx'
 import Catalogo from './pages/Catalogo.tsx'
 import './index.css'
 import Product from './pages/Product.tsx'
+import Agradecimento from './pages/Agradecimento.tsx'
 
 const router = createBrowserRouter([
   {
@@ -27,8 +28,12 @@ const router = createBrowserRouter([
         path: "/produto/:id",
         element: <Product/>
       }
-    ]
+    ],
   },
+  {
+    path: "/agradecimento",
+    element: <Agradecimento/>
+  }
 ])
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
