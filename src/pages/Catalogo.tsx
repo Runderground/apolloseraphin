@@ -18,7 +18,7 @@ export default function Catalogo() {
           <Card.name name={p.nome}/>
           <Card.description description={p.desc}/>
           <Card.price price={p.preco}/>
-          <Card.avaliation avaliation={p.nota}/>
+          <Card.avaliation size={1.3} avaliation={p.nota}/>
           <Card.button button_text={"Comprar"} button_link={`/produto/${p.id}`}/>
         </Card.root>
         ))}

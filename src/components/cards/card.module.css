@@ -4,38 +4,43 @@
   background: rgba(33,33,33, .5);
   border-radius: 1rem;
   padding: 1rem;
-  justfify-content: center;
+  justfify-content: space-between;
   align-items: center;
+  min-height: 100%;
 }
 
 .card_image {
   width: 40%;
   height: auto;
   border-radius: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .card_name {
   color: var(--text);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card_desc {
-  color: rgba(125,125,125);
-  font-size: .75rem;
+  color: rgba(175,175,175);
+  font-size: 1rem;
+  flex-grow: 1;
+  margin-bottom: .5rem;
 }
 
 .card_price {
   font-size: 2rem;
   font-weight: bold;
   color: rgba(100, 230, 100);
+  margin-bottom: .5rem;
 }
 
 .star_array {
   display: flex;
   gap: .25rem;
   color: rgba(255, 190, 20);
-  margin: .25rem;
+  margin-bottom: .5rem;
 }
 
 .card_button {
