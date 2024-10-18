@@ -11,7 +11,7 @@ export default function Agradecimento() {
       <div className={style.thanks_box}>
         <BsBagCheckFill/>
         <h1>Compra realizada</h1>
-        <p>Sua compra foi realizada com sucesso, provavelmente nunca irá chegar porque estamos com preguiça de enviar. 😉</p>
+        <p>Este site foi criado para um projeto escolar e a compra é somente uma simulação. 😉</p>
         <Link to="/">Voltar para o início</Link>
       </div>
     </div>
