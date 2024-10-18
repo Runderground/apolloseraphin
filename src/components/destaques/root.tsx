@@ -3,12 +3,11 @@ import style from './destaque.module.css'
 
 interface IDRoot {
   children: React.ReactNode;
-  bg?: string;
 }
 
-export default function DRoot({children, bg}: IDRoot) {
+export default function DRoot({children}: IDRoot) {
   return (
-    <div className={`${style.box} ${style[bg]}`}>
+    <div className={style.box}>
       {children}
     </div>
   )

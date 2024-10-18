@@ -1,6 +1,6 @@
 import style from './NavBar.module.css'
 import { Link } from 'react-router-dom'
-import { BsHouseFill, BsCartFill, BsPersonBadgeFill } from 'react-icons/bs'
+import { BsHouseFill, BsCartFill } from 'react-icons/bs'
 
 export default function NavBar() {
   
